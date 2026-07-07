@@ -1,26 +1,30 @@
-# 🏥 Smart Health Monitoring & Sleep Analysis System
+# 🏥 Smart Health Monitoring and Sleep Analysis System
 
-## 📌 Overview
+An AI-powered Smart Health Monitoring and Sleep Analysis System developed using **Python, Streamlit, and Machine Learning**. The application analyzes a user's health and lifestyle data to predict **Sleep Quality** and **Sleep Disorders**, while providing personalized health insights, recommendations, and downloadable reports.
 
-The Smart Health Monitoring & Sleep Analysis System is an AI-powered healthcare application developed using Machine Learning and Streamlit. It predicts sleep quality and identifies potential sleep disorders based on user health and lifestyle information.
+---
 
-This project was developed as part of my Data Science internship.
+## 📌 Project Overview
+
+This project helps users understand their sleep health by analyzing lifestyle and physiological parameters. It uses Machine Learning models trained on a sleep health dataset to predict sleep quality and identify possible sleep disorders.
+
+The application also provides a health dashboard, personalized suggestions, weekly health plans, and downloadable PDF reports.
 
 ---
 
 ## ✨ Features
 
-- User Login System
-- Sleep Quality Prediction
-- Sleep Disorder Prediction
-- Health Score Calculation
-- Interactive Dashboard
-- Health Graphs and Visualizations
-- Personalized Health Suggestions
-- Food Recommendations
-- Weekly Health Plan
-- PDF Health Report Generation
-- Machine Learning-based Predictions
+- 🔐 User Login Interface
+- 📝 Health Data Input Form
+- 🤖 Machine Learning-Based Predictions
+- 😴 Sleep Quality Prediction
+- 🩺 Sleep Disorder Classification
+- 📊 Health Dashboard
+- 📈 Interactive Health Charts
+- 💡 Personalized Health Suggestions
+- 🥗 Food Recommendations
+- 📅 Weekly Health Plan
+- 📄 Downloadable PDF Health Reports
 
 ---
 
@@ -28,43 +32,38 @@ This project was developed as part of my Data Science internship.
 
 - Python
 - Streamlit
+- Scikit-learn
 - Pandas
 - NumPy
 - Matplotlib
-- Scikit-learn
 - Joblib
-- ReportLab
-- Seaborn
+- Jupyter Notebook
 
 ---
 
 ## 🤖 Machine Learning Models
 
-### Regression
-- Linear Regression
-- Random Forest Regressor
-- Artificial Neural Network (MLP Regressor)
+### Regression Model
+- Predicts Sleep Quality Score
 
-### Classification
-- K-Nearest Neighbors (KNN)
-- Random Forest Classifier
-- Artificial Neural Network (MLP Classifier)
-
-Random Forest models were selected as the final models because they provided the best prediction performance.
+### Classification Model
+- Predicts Sleep Disorders:
+  - No Disorder
+  - Insomnia
+  - Sleep Apnea
 
 ---
 
-## 📂 Dataset
+## 📊 Dataset
 
-Sleep Health and Lifestyle Dataset
+**Dataset:** Sleep Health and Lifestyle Dataset
 
-Dataset includes:
+The dataset contains information related to:
 
 - Gender
 - Age
 - Occupation
 - Sleep Duration
-- Quality of Sleep
 - Physical Activity
 - Stress Level
 - BMI Category
@@ -75,35 +74,56 @@ Dataset includes:
 
 ---
 
-## 📊 Project Workflow
+## 📁 Project Structure
 
-1. Data Collection
-2. Data Preprocessing
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Model Training
-6. Model Evaluation
-7. Model Selection
-8. Streamlit Web Application
-9. Health Report Generation
+```
+Smart-health-monitoring-and-Sleep-analysis-system/
+│
+├── app.py
+├── main.ipynb
+├── requirements.txt
+├── README.md
+├── Sleep_health_and_lifestyle_dataset.csv
+│
+├── models/
+│   ├── sleep_quality_model.pkl
+│   ├── sleep_disorder_model.pkl
+│   ├── scaler_regression.pkl
+│   ├── scaler_classification.pkl
+│   ├── regression_columns.pkl
+│   └── classification_columns.pkl
+│
+└── reports/
+    ├── comparison_classification.png
+    ├── comparison_regression.png
+    ├── feature_importance_classification.png
+    ├── feature_importance_regression.png
+    └── EDA graphs
+```
 
 ---
 
-## 🚀 How to Run
+## 🚀 Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Smart-Health-Monitoring-System.git
+git clone https://github.com/iamprithuhs/Smart-health-monitoring-and-Sleep-analysis-system.git
 ```
 
-Install dependencies
+Move into the project directory:
+
+```bash
+cd Smart-health-monitoring-and-Sleep-analysis-system
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+Run the application:
 
 ```bash
 streamlit run app.py
@@ -111,28 +131,41 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure
+## 📈 Project Workflow
 
-```
-Smart_Health_Monitoring_System/
-│
-├── app.py
-├── main.ipynb
-├── models/
-├── reports/
-├── Sleep_health_and_lifestyle_dataset.csv
-├── requirements.txt
-└── README.md
-```
+1. User enters health and lifestyle information.
+2. Data is preprocessed.
+3. Machine Learning models analyze the data.
+4. Sleep Quality and Sleep Disorder are predicted.
+5. Results are displayed on the dashboard.
+6. Personalized recommendations are generated.
+7. Users can download health reports.
 
 ---
 
-## 📈 Results
+## 📊 Visualizations
 
-- Sleep Quality Prediction
-- Sleep Disorder Prediction
-- Health Score Analysis
-- Personalized Health Recommendations
+The project includes:
+
+- Sleep Disorder Distribution
+- Sleep Duration Distribution
+- Correlation Heatmap
+- Stress vs Sleep Quality
+- Physical Activity vs Sleep Quality
+- Age vs Sleep Quality
+- Feature Importance
+- Model Comparison Charts
+
+---
+
+## 🔮 Future Enhancements
+
+- Deep Learning Models
+- Real-Time Health Monitoring
+- Wearable Device Integration
+- Cloud Deployment
+- Doctor Recommendation System
+- Multi-language Support
 
 ---
 
@@ -142,4 +175,9 @@ Smart_Health_Monitoring_System/
 
 Computer Science Engineer
 
-GitHub: https://github.com/iamprithuhs
+GitHub:
+https://github.com/iamprithuhs
+
+---
+
+## ⭐ If you found this project useful, please consider giving it a Star.
