@@ -1,43 +1,51 @@
 # 🏥 Smart Health Monitoring and Sleep Analysis System
 
-An AI-powered Smart Health Monitoring and Sleep Analysis System developed using **Python, Streamlit, and Machine Learning**. The application analyzes a user's health and lifestyle data to predict **Sleep Quality** and **Sleep Disorders**, while providing personalized health insights, recommendations, and downloadable reports.
+<p align="center">
+  <b>An AI-powered health monitoring application that predicts sleep quality and sleep disorders using Machine Learning.</b>
+</p>
 
 ---
 
-## 📌 Project Overview
+## 📌 About the Project
 
-This project helps users understand their sleep health by analyzing lifestyle and physiological parameters. It uses Machine Learning models trained on a sleep health dataset to predict sleep quality and identify possible sleep disorders.
+The **Smart Health Monitoring and Sleep Analysis System** is a Machine Learning-based web application developed using **Python** and **Streamlit**.
 
-The application also provides a health dashboard, personalized suggestions, weekly health plans, and downloadable PDF reports.
+The application analyzes a user's health and lifestyle information to predict:
+
+- 😴 Sleep Quality
+- 🩺 Sleep Disorder
+
+It also provides personalized health suggestions, visual dashboards, weekly health plans, and downloadable health reports to help users improve their lifestyle.
 
 ---
 
 ## ✨ Features
 
-- 🔐 User Login Interface
-- 📝 Health Data Input Form
-- 🤖 Machine Learning-Based Predictions
+- 🔐 User Login
+- 📝 Health Information Form
+- 🤖 Machine Learning Predictions
 - 😴 Sleep Quality Prediction
-- 🩺 Sleep Disorder Classification
+- 🩺 Sleep Disorder Detection
 - 📊 Health Dashboard
-- 📈 Interactive Health Charts
+- 📈 Data Visualizations
 - 💡 Personalized Health Suggestions
 - 🥗 Food Recommendations
 - 📅 Weekly Health Plan
-- 📄 Downloadable PDF Health Reports
+- 📄 PDF Health Report Generation
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- NumPy
-- Matplotlib
-- Joblib
-- Jupyter Notebook
+| Category | Technologies |
+|----------|--------------|
+| Programming | Python |
+| Web Framework | Streamlit |
+| Machine Learning | Scikit-learn |
+| Data Processing | Pandas, NumPy |
+| Visualization | Matplotlib |
+| Model Storage | Joblib |
+| Development | Jupyter Notebook |
 
 ---
 
@@ -56,15 +64,16 @@ The application also provides a health dashboard, personalized suggestions, week
 
 ## 📊 Dataset
 
-**Dataset:** Sleep Health and Lifestyle Dataset
+**Sleep Health and Lifestyle Dataset**
 
-The dataset contains information related to:
+The dataset includes the following information:
 
 - Gender
 - Age
 - Occupation
 - Sleep Duration
-- Physical Activity
+- Quality of Sleep
+- Physical Activity Level
 - Stress Level
 - BMI Category
 - Heart Rate
@@ -76,7 +85,7 @@ The dataset contains information related to:
 
 ## 📁 Project Structure
 
-```
+```text
 Smart-health-monitoring-and-Sleep-analysis-system/
 │
 ├── app.py
@@ -98,32 +107,32 @@ Smart-health-monitoring-and-Sleep-analysis-system/
     ├── comparison_regression.png
     ├── feature_importance_classification.png
     ├── feature_importance_regression.png
-    └── EDA graphs
+    └── EDA Visualizations
 ```
 
 ---
 
 ## 🚀 Installation
 
-Clone the repository:
+Clone the repository
 
 ```bash
 git clone https://github.com/iamprithuhs/Smart-health-monitoring-and-Sleep-analysis-system.git
 ```
 
-Move into the project directory:
+Move into the project directory
 
 ```bash
 cd Smart-health-monitoring-and-Sleep-analysis-system
 ```
 
-Install dependencies:
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+Run the application
 
 ```bash
 streamlit run app.py
@@ -131,19 +140,20 @@ streamlit run app.py
 
 ---
 
-## 📈 Project Workflow
+## 🔄 Project Workflow
 
 1. User enters health and lifestyle information.
 2. Data is preprocessed.
 3. Machine Learning models analyze the data.
-4. Sleep Quality and Sleep Disorder are predicted.
-5. Results are displayed on the dashboard.
-6. Personalized recommendations are generated.
-7. Users can download health reports.
+4. Sleep Quality is predicted.
+5. Sleep Disorder is classified.
+6. Health dashboard displays the results.
+7. Personalized recommendations are generated.
+8. Health report can be downloaded.
 
 ---
 
-## 📊 Visualizations
+## 📊 Data Visualizations
 
 The project includes:
 
@@ -153,19 +163,51 @@ The project includes:
 - Stress vs Sleep Quality
 - Physical Activity vs Sleep Quality
 - Age vs Sleep Quality
-- Feature Importance
-- Model Comparison Charts
+- Feature Importance Analysis
+- Model Comparison Graphs
 
 ---
 
-## 🔮 Future Enhancements
+## 📸 Application Screenshots
+
+> Add screenshots of your application inside a folder named **screenshots**.
+
+Example:
+
+```text
+screenshots/
+├── login.png
+├── input.png
+├── dashboard.png
+├── prediction.png
+```
+
+Then display them like this:
+
+```markdown
+### Login Page
+
+![Login](screenshots/login.png)
+
+### Prediction Result
+
+![Prediction](screenshots/prediction.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+```
+
+---
+
+## 🎯 Future Enhancements
 
 - Deep Learning Models
-- Real-Time Health Monitoring
-- Wearable Device Integration
 - Cloud Deployment
+- Wearable Device Integration
 - Doctor Recommendation System
-- Multi-language Support
+- Mobile Application
+- Real-time Health Monitoring
 
 ---
 
@@ -175,9 +217,10 @@ The project includes:
 
 Computer Science Engineer
 
-GitHub:
-https://github.com/iamprithuhs
+- GitHub: https://github.com/iamprithuhs
 
 ---
 
-## ⭐ If you found this project useful, please consider giving it a Star.
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
