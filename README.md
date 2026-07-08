@@ -37,24 +37,26 @@ It also provides personalized health suggestions, visual dashboards, weekly heal
 
 ## 🛠️ Tech Stack
 
-| Category | Technologies |
-|----------|--------------|
-| Programming | Python |
-| Web Framework | Streamlit |
-| Machine Learning | Scikit-learn |
-| Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib |
-| Model Storage | Joblib |
-| Development | Jupyter Notebook |
+| Category         | Technologies     |
+| ---------------- | ---------------- |
+| Programming      | Python           |
+| Web Framework    | Streamlit        |
+| Machine Learning | Scikit-learn     |
+| Data Processing  | Pandas, NumPy    |
+| Visualization    | Matplotlib       |
+| Model Storage    | Joblib           |
+| Development      | Jupyter Notebook |
 
 ---
 
 ## 🤖 Machine Learning Models
 
 ### Regression Model
+
 - Predicts Sleep Quality Score
 
 ### Classification Model
+
 - Predicts Sleep Disorders:
   - No Disorder
   - Insomnia
@@ -197,6 +199,46 @@ Then display them like this:
 
 ![Dashboard](screenshots/dashboard.png)
 ```
+
+---
+
+---
+
+## 📸 Application Screenshots
+
+### 🔐 Login Page
+
+![Login Page](screenshots/login.png)
+
+---
+
+### 📝 Patient Information Form
+
+![Input Form](screenshots/input_form.png)
+
+---
+
+### 📊 Prediction Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### 💡 Why This Result?
+
+![Why This Result](screenshots/why_result.png)
+
+---
+
+### 🥗 Health Suggestions
+
+![Suggestions](screenshots/suggestions.png)
+
+---
+
+### 📄 PDF Health Report
+
+![Health Report](screenshots/health_report.png)
 
 ---
 
