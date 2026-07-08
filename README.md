@@ -259,7 +259,7 @@ Then display them like this:
 
 Computer Science Engineer
 
-- GitHub: https://github.com/iamprithuhs
+- GitHub: https://github.com/prithu-hs
 
 ---
 
